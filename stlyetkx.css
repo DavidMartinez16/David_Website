@@ -1,0 +1,73 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#container
+{ 
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:url('img/404.png') , #151729;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+#container .content
+{
+    max-width: 600px;
+    text-align: center;
+
+}
+#container .content h2
+{
+    margin-top: 0;
+    font-size: 20vw;
+    background: linear-gradient(to bottom, #81121b, #111111);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 15px;
+    line-height: 1em;
+}
+#container .content h4
+{
+    position: relative;
+    font-size: 1.8em;
+    margin-bottom: 12px;
+    background: #ffffff;
+    font-weight: 300;
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+#container .content p
+{
+    color: #ffffff;
+    font-size: 1.4em;
+}
+#container .content a
+{
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    background:linear-gradient(45deg, #81121b,#111111);
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    border-bottom: 4px solid #ffffff;
+}
+#particles-js
+{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    background: linear-gradient(45deg, #81121b,#111111);
+}
