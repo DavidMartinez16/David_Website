@@ -932,7 +932,7 @@ background:linear-gradient(#81121b,#111111) ;
     {
         width: 40px;
         height: 40px;
-        background: url(/img/menu.png);
+        background: url(menu.png);
         background-position: right;
         background-repeat: no-repeat;
         background-size: 30px;
