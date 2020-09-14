@@ -941,7 +941,7 @@ background:linear-gradient(#81121b,#111111) ;
     }
     .toggle.active
     {
-        background: url(/img/close.png);
+        background: url(close.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
