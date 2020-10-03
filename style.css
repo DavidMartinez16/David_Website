@@ -891,11 +891,8 @@ background:linear-gradient(#81121b,#111111) ;
 
 @media (max-width: 400px)
 {
-.more .btn
-{
-    left:40.5%; 
-    margin-bottom: 10px;
-    margin-top: -10%;
+.more .btn {
+    left: 30%;
 }
 }
 
