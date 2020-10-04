@@ -889,6 +889,15 @@ background:linear-gradient(#81121b,#111111) ;
 
 /*RESPONSIVE*/
 
+@media (max-width: 400px)
+{
+.more .btn {
+    left: 32%;
+}
+}
+
+
+
 @media (max-width: 991px)
 {
     header,
